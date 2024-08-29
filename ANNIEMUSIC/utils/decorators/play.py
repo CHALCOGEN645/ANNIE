@@ -37,7 +37,7 @@ def PlayWrapper(command):
                     [
                         InlineKeyboardButton(
                             text="ʜᴏᴡ ᴛᴏ ғɪx ?",
-                            callback_data="jarvis2O",
+                            callback_data="Kittyxupdates",
                         ),
                     ]
                 ]

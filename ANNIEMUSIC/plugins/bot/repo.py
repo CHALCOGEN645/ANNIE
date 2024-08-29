@@ -4,13 +4,7 @@ from ANNIEMUSIC import app
 from config import BOT_USERNAME
 
 start_txt = """**
-✪ ωεℓ¢σмє ƒσя jคяv¡ร яєρσѕ ✪
- 
- ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
- 
- ➲ ɴᴏ ʜᴇʀᴏᴋᴜ ʙᴀɴ ɪssᴜᴇ ✰
- 
- ➲ ɴᴏ ɪᴅ ʙᴀɴ ɪssᴜᴇ ✰
+✪ ωεℓ¢σмє ƒσя ɱσσɳ яєρσѕ ✪
  
  ➲ᴜɴʟɪᴍɪᴛᴇᴅ ᴅʏɴᴏs ✰
  
@@ -27,17 +21,16 @@ async def start(_, msg):
     buttons = [
      
             [ 
-            InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʙᴀʙᴇs✪", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+            InlineKeyboardButton("𝐓ᴀᴘ 𝐓o 𝐒ᴇᴇ 𝐓ʜᴇ 𝐌ᴀɢɪᴄ✨", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
             ],
      
             [
-             InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/JARVIS_V2"),
-             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/JARVIS_V_SUPPORT"),
+             InlineKeyboardButton("𝐌ᴏᴏɴ🌙♡", url="https://t.me/Moonshining2"),
+             InlineKeyboardButton("💌 𝐇ᴇʟᴘ 💟", url="https://t.me/Kittyxupdates"),
              ],
      
              [
-             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/Dora_Hub"),          
-             InlineKeyboardButton("︎ᴍᴜsɪᴄ", url=f"https://github.com/doraemon890/ANNIE-X-MUSIC"),
+             InlineKeyboardButton("︎𝐆ʀᴀɴᴅᴍᴀsᴛɪ", url="https://t.me/+fPsCUlG964E5MzY1"),
              ],
      
               ]
@@ -45,7 +38,7 @@ async def start(_, msg):
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/58afe55fee5ae99d6901b.jpg",
+        photo="https://telegra.ph/file/fda6ac428799c5ce53d77.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )

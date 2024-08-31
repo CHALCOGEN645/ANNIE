@@ -10,7 +10,7 @@ from PIL import (Image, ImageDraw, ImageEnhance, ImageFilter,
 from youtubesearchpython.__future__ import VideosSearch
 from ANNIEMUSIC import app
 
-from config import YOUTUBE_IMG_URL,MUSIC_BOT_NAME
+from config import YOUTUBE_IMG_URL,BOT_NAME
 
 
 
@@ -129,7 +129,7 @@ async def gen_thumb(videoid,user_id):
         j = 0
         draw.text(
                     (30,10),
-                    f"{MUSIC_BOT_NAME}",
+                    f"{BOT_NAME}",
                     fill="white",
                     stroke_width=5,
                     stroke_fill="black",

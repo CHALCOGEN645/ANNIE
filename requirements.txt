@@ -34,7 +34,7 @@ nest_asyncio
 nekosbest
 openai==0.28.0
 opencv-python
-pillow==10.3.0
+pillow==11.0.0
 psutil
 pickledb
 pycountry
